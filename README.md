@@ -15,6 +15,17 @@ For convenience, this package includes snapshot versions of clab/cnn (https://gi
 
 # Usage
 
+## Mac
+```
+brew install cmake
+brew install boost
+brew install yaml-cpp
+brew install libunistring
+brew install icu4c
+ln -s /usr/local/Cellar/icu4c/<VERSION>/bin/icu-config /usr/local/bin/icu-config
+ln -s /usr/local/Cellar/icu4c/<VERSION>/include/* /usr/local/include
+```
+
 ## Compilation
 
 ```
