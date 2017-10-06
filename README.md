@@ -24,6 +24,7 @@ brew install libunistring
 brew install icu4c
 ln -s /usr/local/Cellar/icu4c/<VERSION>/bin/icu-config /usr/local/bin/icu-config
 ln -s /usr/local/Cellar/icu4c/<VERSION>/include/* /usr/local/include
+brew link icu4c --force
 ```
 
 ## Compilation
